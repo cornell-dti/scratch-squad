@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 
 function App() {
-
   return (
     <Router>
       <Switch>
@@ -22,7 +21,6 @@ function App() {
       </Switch>
     </Router>
   )
-
 }
 
 export default App;

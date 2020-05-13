@@ -3,7 +3,16 @@ import {
   Link
 } from "react-router-dom";
 
-export default ({ img, link, title, description, involvement, platform }) => {
+type Props = {
+  readonly img: string;
+  readonly link: string;
+  readonly title: string;
+  readonly description: string;
+  readonly involvement: number;
+  readonly platform: string;
+};
+
+export default ({ img, link, title, description, involvement, platform }: Props) => {
   return (
     <div className="wrapper" >
       <div className="div1">
