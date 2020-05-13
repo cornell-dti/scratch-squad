@@ -1,0 +1,15 @@
+name: CI
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Set up Node
+      - name: Install
+        run: yarn install
+      - name: Lint client
+        run: yarn lint
+      - name: Type Check
+        run: yarn tsc

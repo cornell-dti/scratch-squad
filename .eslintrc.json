@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb", "plugin:@typescript-eslint/recommended", "react-app"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "react/jsx-filename-extension": "off",
+    "import/extensions": ["error", "never"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".json", ".mjs", ".ts", ".tsx"]
+      }
+    }
+  }
+}

@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Home from './pages/Home';
-import Scratch from './pages/Scratch';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-} from "react-router-dom";
+} from 'react-router-dom';
+import Home from './pages/Home';
+import Scratch from './pages/Scratch';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
-  )
+  );
 }
 
 export default App;
