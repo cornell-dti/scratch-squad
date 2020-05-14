@@ -1,18 +1,27 @@
-// TODO: avoid dynamic require
-/* eslint-disable import/no-dynamic-require */
-/* eslint-disable global-require */
 import React from 'react';
 import {
   Link,
 } from 'react-router-dom';
+import laptop from '../assets/platform/laptop.png';
+import involvement1 from '../assets/involvement/1.png';
 
 type Props = {
   readonly img: string;
   readonly link: string;
   readonly title: string;
   readonly description: string;
-  readonly involvement: number;
-  readonly platform: string;
+  readonly involvement: 1 | 2 | 3;
+  readonly platform: 'laptop';
+};
+
+const platformAssets = {
+  laptop,
+};
+
+const involvementAssets = {
+  1: involvement1,
+  2: involvement1,
+  3: involvement1,
 };
 
 export default ({
@@ -30,8 +39,8 @@ export default ({
           {' '}
         </Link>
         <div className="icons">
-          <img className="platformicon" src={require(`../assets/platform/${platform}.png`)} alt={`This lesson can be taken on ${platform}`} />
-          <img className="involvementicon" src={require(`../assets/involvement/${involvement}.png`)} alt={`Parent involvement ${involvement} out of 3`} />
+          <img className="platformicon" src={platformAssets[platform]} alt={`This lesson can be taken on ${platform}`} />
+          <img className="involvementicon" src={involvementAssets[involvement]} alt={`Parent involvement ${involvement} out of 3`} />
         </div>
         <div className="description">
           {description}
