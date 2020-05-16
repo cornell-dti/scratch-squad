@@ -27,7 +27,7 @@ const involvementAssets = {
 export default ({
   img, link, title, description, involvement, platform,
 }: Props) => (
-  <div className="wrapper">
+  <div className="lessonwrapper">
     <div className="div1">
       <div className="img1">
         <img src={img} width="90%" className="img" alt="path" />

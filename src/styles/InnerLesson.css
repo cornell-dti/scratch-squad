@@ -1,0 +1,71 @@
+.wrapper {
+  overflow: hidden;
+}
+
+.belowNav {
+  margin-top: 8vh;
+  width: 100vw;
+  height: 92vh;
+  overflow: hidden;
+}
+
+.lessonText {
+  position: absolute;
+  bottom: 5vh;
+  left: 3vw;
+  right: 3vw;
+  text-align: left;
+  font-family: 'Raleway';
+  color: black;
+}
+
+.lessonTitle {
+  font-weight: 400;
+  font-size: 10vh;
+}
+
+.lessonSubtitle {
+  width: 70vw;
+  font-size: 4vh;
+  font-weight: 100;
+  line-height: 6vh;
+}
+
+.lessonImage {
+  width: 60vw;
+  margin-top: 15vh;
+  margin-left: 50vw;
+  opacity: 0.5;
+}
+
+.lessonVideo {
+  display: flex;
+  width: 100vw;
+  /* height: 33vh; */
+  margin-left: 10vw;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.video {
+  width: 24vw;
+  height: 13.5vw;
+  border: 0.3px solid black;
+  vertical-align: center;
+}
+
+.videoText {
+  font-family: 'Raleway';
+  margin-left: 4vw;
+  margin-right: 18vw;
+}
+
+.videoTitle {
+  font-weight: 500;
+  font-size: 4vh;
+}
+
+.videoSubtitle {
+  font-size: 3vh;
+  margin-top: 1vh;
+}
