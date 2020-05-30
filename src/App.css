@@ -1,9 +1,9 @@
 .div1 {
   display: flex;
   width: 80vw;
-  height: 30vh;
+  margin-right: 5vw;
   top: 15%;
-  font-family: 'Source Sans Pro';
+  font-family: 'Raleway';
   margin-left: 10%;
 }
 
@@ -17,6 +17,7 @@
 .img {
   width: 100%;
   height: auto;
+  margin-bottom: 10vh;
 }
 
 .right { 
@@ -43,12 +44,12 @@
 }
 
 .wrapper {
-  margin-top: 5%;
+  overflow: hidden;
 }
 
 hr {
-  width: 50%;
-  margin-top: 6vh;
+  width: 60%;
+  margin-top: 0vh;
   margin-bottom: 6vh;
   border-width: 0.5px;
 }
@@ -74,18 +75,20 @@ hr {
   margin-top: 8vh;
 }
 
+
 .homeImage {
   width: 100vw;
   height: 92vh;
+  margin-bottom: 15vh;
 }
 
 .homeText {
   position: absolute;
-  bottom: 7vh;
+  bottom: 5vh;
   left: 3vw;
   right: 3vw;
   text-align: left;
-  font-family: 'Source Sans Pro';
+  font-family: 'Raleway';
   color: white;
 }
 
@@ -98,6 +101,7 @@ hr {
   width: 70vw;
   font-size: 4vh;
   font-weight: 100;
+  line-height: 6vh;
 }
 
 .navbar {
@@ -111,6 +115,7 @@ hr {
   height: 8vh;
   font-size: 2vh;
   justify-content: space-between;
+  font-family: "Raleway";
 }
 
 #links {
