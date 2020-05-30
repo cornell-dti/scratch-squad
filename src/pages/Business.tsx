@@ -5,8 +5,8 @@ import businessimage from '../assets/businessimage.png';
 const businessProps = {
   img: businessimage,
   title: 'Extracurriculars with Business',
-  description: "This is the description for the Business lesson. Here is some text to make it a little longer. \
-  And now I am going to make it even longer because it wasn't long enough before that.",
+  description: `This is the description for the Business lesson. Here is some text to make it a little longer. 
+  And now I am going to make it even longer because it wasn't long enough before that.`,
   lessons: [],
 };
 

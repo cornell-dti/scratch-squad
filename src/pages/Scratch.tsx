@@ -5,8 +5,8 @@ import scratchimage from '../assets/scratchimage.png';
 const scratchProps = {
   img: scratchimage,
   title: 'Starting from Scratch',
-  description: "This is the description for the Scratch lesson. Here is some text to make it a little longer. \
-  And now I am going to make it even longer because it wasn't long enough before that.",
+  description: `This is the description for the Scratch lesson. Here is some text to make it a little longer.
+  And now I am going to make it even longer because it wasn't long enough before that.`,
   lessons: [
     {
       url: 'https://www.youtube.com/embed/WQH1tucJUV0',
