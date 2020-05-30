@@ -7,6 +7,8 @@ import {
 } from 'react-router-dom';
 import Home from './pages/Home';
 import Scratch from './pages/Scratch';
+import Business from './pages/Business';
+import AppDev from './pages/AppDev';
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
         </Route>
         <Route exact path="/scratch">
           <Scratch />
+        </Route>
+        <Route exact path="/business">
+          <Business />
+        </Route>
+        <Route exact path="/appdev">
+          <AppDev />
         </Route>
       </Switch>
     </Router>
