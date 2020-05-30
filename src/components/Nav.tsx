@@ -5,9 +5,9 @@ export default () => (
   <div className="navbar">
     <img src={logo} alt="DTI Logo" id="logo" />
     <div id="links">
-      <a>Contact Us</a>
-      <a>Meet the Team</a>
-      <a>About DTI</a>
+      <a href="/">Contact Us</a>
+      <a href="/">Meet the Team</a>
+      <a href="/">About DTI</a>
     </div>
   </div>
 );
