@@ -32,7 +32,7 @@ export default () => {
         </div>
         <Lesson img={scratchimage} link="scratch" title="Starting from Scratch" description={scratchDesc} involvement={1} platform="laptop" />
         <Lesson img={businessimage} link="business" title="Extracurriculars with Business!" description={businessDesc} involvement={1} platform="laptop" />
-        <Lesson img={a3image} link="/appdev" title="Basics of App Development" description={appdevDesc} involvement={1} platform="laptop" />
+        <Lesson img={a3image} link="appdev" title="Basics of App Development" description={appdevDesc} involvement={1} platform="laptop" />
       </div>
     </div>
   );
