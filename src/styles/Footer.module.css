@@ -1,0 +1,21 @@
+.footer {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.footer .links {
+  margin: 1em 0;
+}
+
+.footer .links a {
+  margin: 0.75em;
+  color: black;
+}
+
+.footer .links a:visited {
+  color: black;
+}
+
+.footer .links a:hover {
+  opacity: 0.7;
+}
