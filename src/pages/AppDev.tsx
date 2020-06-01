@@ -1,6 +1,7 @@
 import React from 'react';
 import InnerLesson from '../components/InnerLesson';
 import a3image from '../assets/a3image.png';
+import Footer from '../components/Footer';
 
 const appdevProps = {
   img: a3image,
@@ -11,10 +12,13 @@ const appdevProps = {
 };
 
 export default () => (
-  <InnerLesson
-    img={appdevProps.img}
-    title={appdevProps.title}
-    description={appdevProps.description}
-    lessons={appdevProps.lessons}
-  />
+  <>
+    <InnerLesson
+      img={appdevProps.img}
+      title={appdevProps.title}
+      description={appdevProps.description}
+      lessons={appdevProps.lessons}
+    />
+    <Footer />
+  </>
 );

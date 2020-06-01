@@ -1,4 +1,6 @@
 import React from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -9,6 +11,8 @@ import Home from './pages/Home';
 import Scratch from './pages/Scratch';
 import Business from './pages/Business';
 import AppDev from './pages/AppDev';
+
+library.add(fab);
 
 function App() {
   return (

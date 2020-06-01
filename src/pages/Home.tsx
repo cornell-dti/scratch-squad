@@ -6,6 +6,7 @@ import scratchimage from '../assets/scratchimage.png';
 import businessimage from '../assets/businessimage.png';
 import a3image from '../assets/a3image.png';
 import home from '../assets/home.png';
+import Footer from '../components/Footer';
 
 export default () => {
   const scratchDesc = `In this video series, we will walk you through how to use Scratch, a friendly block-based
@@ -34,6 +35,7 @@ export default () => {
         <Lesson img={businessimage} link="business" title="Extracurriculars with Business!" description={businessDesc} involvement={1} platform="laptop" />
         <Lesson img={a3image} link="appdev" title="Basics of App Development" description={appdevDesc} involvement={1} platform="laptop" />
       </div>
+      <Footer />
     </div>
   );
 };

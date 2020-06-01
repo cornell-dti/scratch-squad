@@ -1,6 +1,7 @@
 import React from 'react';
 import InnerLesson from '../components/InnerLesson';
 import businessimage from '../assets/businessimage.png';
+import Footer from '../components/Footer';
 
 const businessProps = {
   img: businessimage,
@@ -11,10 +12,13 @@ const businessProps = {
 };
 
 export default () => (
-  <InnerLesson
-    img={businessProps.img}
-    title={businessProps.title}
-    description={businessProps.description}
-    lessons={businessProps.lessons}
-  />
+  <>
+    <InnerLesson
+      img={businessProps.img}
+      title={businessProps.title}
+      description={businessProps.description}
+      lessons={businessProps.lessons}
+    />
+    <Footer />
+  </>
 );

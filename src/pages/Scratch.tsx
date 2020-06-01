@@ -1,6 +1,7 @@
 import React from 'react';
 import InnerLesson from '../components/InnerLesson';
 import scratchimage from '../assets/scratchimage.png';
+import Footer from '../components/Footer';
 
 const scratchProps = {
   img: scratchimage,
@@ -22,10 +23,13 @@ const scratchProps = {
 };
 
 export default () => (
-  <InnerLesson
-    img={scratchProps.img}
-    title={scratchProps.title}
-    description={scratchProps.description}
-    lessons={scratchProps.lessons}
-  />
+  <>
+    <InnerLesson
+      img={scratchProps.img}
+      title={scratchProps.title}
+      description={scratchProps.description}
+      lessons={scratchProps.lessons}
+    />
+    <Footer />
+  </>
 );
